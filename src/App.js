@@ -4,10 +4,10 @@ import Player from './components/Player/Player';
 function App() {
   const [songs] = useState([
     {
-      title: "Radio Guntur Bali",
-      artist: "Machine Gun Kelly",
-      img_src: "./images/song-1.jpg",
-      src: "https://pu.klikhost.com/proxy/guntur/stream"
+      title: "", // Title
+      artist: "Machine Gun Kelly", // Artist
+      img_src: "./images/song-1.jpg", // Artwork
+      src: "" // insert audio file or streaming url
     },
     {
       title: "Song 2",
